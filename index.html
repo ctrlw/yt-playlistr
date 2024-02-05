@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yt-playlistr - create youtube playlists from song titles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>yt-playlistr</h1>
+    <p>Enter a list of song titles (one on each line, e.g. "Rick Astley - Never gonna give you up") and click "Search" to find them on YouTube.
+    Then click "Create Playlist" to create a new anonymous playlist with the search results. The playlist cannot be saved but you can share its URL.
+    </p>
+    <textarea id="searchInput" rows="4" cols="50" placeholder="Donny Osbourne - Flying Hot Stuff
+Rick Astley - Never gonna give you up"></textarea>
+    <button id="searchButton">Search</button>
+    <button id="createPlaylistButton">Create Playlist</button>
+    <div id="results"></div>
+    <script src="config.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

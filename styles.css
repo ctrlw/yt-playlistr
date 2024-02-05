@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px 20px;
+}
+
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.result {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.result img {
+    width: 100%;
+    height: auto;
+}
+
+.result a {
+    text-decoration: none;
+    color: black;
+}
+
+.result-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
